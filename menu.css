@@ -1,0 +1,55 @@
+header {
+  padding: auto;
+  margin: auto;
+}
+/************** MENU *************/
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Cinzel", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+header .logo a {
+  display: flex;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  width: 30%;
+  height: auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #e7ceb7;
+}
+a:hover {
+  color: #cee7ca;
+}
+footer {
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Cinzel", serif;
+  font-weight: 200;
+}
