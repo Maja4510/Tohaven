@@ -1,0 +1,49 @@
+.emblema-one-regular {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.francois-one-regular {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 15px;
+}
+p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+h1 {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  color: #47a1a1;
+  margin-left: 5%;
+  letter-spacing: 0.2rem;
+}
+
+body {
+  background-color: #e7f2ee;
+  gap: 10px;
+}
+
+h2 {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #d9522f;
+  font-size: 4rem;
+  margin-left: 37%;
+}
+
+@media (min-width: 750px) {
+}
