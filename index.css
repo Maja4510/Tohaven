@@ -1,0 +1,216 @@
+
+/*GENERELT*/
+
+img{
+width:100%;
+}
+
+body {
+    background-color: #E7F2EE;
+    margin:0;
+    padding:0;
+  }
+
+  h2{
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    color: #D9522F;
+  }
+
+  p {
+    font-family: "DM Sans", sans-serif;
+    font-weight:200;
+    font-style:normal;
+    line-height:2rem;
+    max-width:1000px;
+  }
+
+  a:hover{
+    color: #D9522F;
+  }
+
+/*HERO-IMAGE*/
+
+  .hero-image {
+    position: relative;
+    width: 100%;
+    height:760px;
+    background: linear-gradient(rgba(76, 103, 95, 0.5), rgba(46, 45, 45, 0.5)), url(indhold/img/heroimage_cropped.jpg.webp) no-repeat 50% 0% fixed;
+    background-size: 100%;
+    overflow: hidden;
+  }
+
+  .grid_1-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .heroh1_2{
+    margin:0;
+    padding:0;
+    text-align:right;
+    color:white;
+    font-size:125px;
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:500px;
+  }
+
+  .heroh1{
+    margin:0;
+    padding:0;
+    text-align:left;
+    color:white;
+    font-size:125px;
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:400px;
+  }
+
+  .heroh2{
+    margin:0;
+    padding:0;
+    text-align:left;
+    color:white;
+    font-size:70px;
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*LINKS I TOPPEN*/
+
+  .billetter{
+    margin:10px;
+    padding-top:200px;
+    text-align:left;
+    font-size:30px;
+    color: #FFB000;
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+  }
+
+  .billetter:hover {
+    color: #D9522F;
+  }
+
+  /*HVAD KAN DU OPLEVE PÅ TOTHAVEM*/
+
+  .content-wrapper {
+    width: 100%;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    max-width:1070px;
+    padding-top:70px;
+    height:450px;
+  }
+
+  .aesel{
+    width:120%;
+    margin:0;
+    padding-left:30px;
+    padding-top:170px;
+  }
+
+  .grid_1-1-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin:20px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  /*SLIDESHOW*/
+
+.slideContainer {
+  position: relative;
+  margin:0;
+  padding-top:90px;
+  padding-bottom:40px;
+}
+.picture {
+  display: none;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.picture img {
+  position: center;
+  width: 100%;
+  height: 100%;
+}
+
+/*KNAPPER PÅ SLIDESHOW*/
+
+.arrow {
+  color: #FFB000;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 90%;
+
+}
+.previous {
+  float: left;
+  cursor: pointer;
+  opacity: 0.1s;
+}
+.previous:hover {
+  opacity: 1;
+}
+.next {
+  float: right;
+  cursor: pointer;
+  opacity: 0.1s;
+}
+
+.next:hover {
+  opacity: 1;
+}
+
+/*OS PÅ TOTHAVEN*/
+
+.ostothaven{
+    width:70%;
+    margin:0;
+    padding-left:150px;
+    padding-top:60px;
+    gap:10px;
+}
+
+.ospaatothaven{
+    width: 100%;
+    padding: 150px;
+    max-width:700px;
+    padding-top:80px;
+    height:500px;
+}
+
+/*BOX BAGVED INDHOLD*/
+
+.box{
+    color:#BCE0CD;
+    height:400px;
+    width:700px;
+}
+
+/*LAG*/
+.LAG{
+    font-size:15px;
+    color: #FFB000;
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .LAG:hover {
+    color: #D9522F;
+  }
