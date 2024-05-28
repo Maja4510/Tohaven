@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forside</title>
+    <meta name="robots" content="noindex">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="indexmenu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="indexlayout.css">
+    <link rel="stylesheet" href="general.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Contrail+One&family=Freeman&family=Lugrasimo&family=Pragati+Narrow:wght@400;700&family=Russo+One&family=Slabo+27px&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +19,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Contrail+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Francois+One&family=Freeman&family=Inter:wght@100..900&family=Lugrasimo&family=Pragati+Narrow:wght@400;700&family=Russo+One&family=Slabo+27px&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Contrail+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Emblema+One&family=Francois+One&family=Freeman&family=Inter:wght@100..900&family=Lugrasimo&family=Pragati+Narrow:wght@400;700&family=Russo+One&family=Slabo+27px&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,7 +36,7 @@
             <nav>
                 <ul class="menu">
                     <li><a class="menutekst" href="besoeg_tothaven.html">Besøg Tothaven</a></li>
-                    <li><a class="menutekst" href="mejeri.html">Gårdmejeri</a></li>
+                    <li><a class="menutekst" href="mejeri.html">Gårdbutikken</a></li>
                     <li><a class="menutekst" href="mentor.html">Mentorforløb</a></li>
                     <li><a class="menutekst" href="begivenheder.html">Begivenheder</a></li>
                 </ul>
@@ -41,14 +47,9 @@
                 </div>
             </nav>
         </div>
-        <div class="grid_1-1">
-            <div>
-                <h1 class="heroh1">TOTHAVEN</h1>
-                <h2 class="heroh2">BESØGSGÅRD</h2>
-            </div>
-            <div>
-                <h1 class="heroh1_2">MAR-OKT</h1>
-            </div>
+        <div class="lottiefile">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+            <dotlottie-player src="https://lottie.host/15cc588f-ab55-451c-b2d9-eb81be5cf387/5yq96lgCVg.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
         </div>
         </div>
         <div class="content-wrapper">
@@ -59,6 +60,7 @@
                         <li><a class="billetter" href="begivenheder.html">BEGIVENHEDER</a></li>
                     </div>
             </div>
+            <div class="box1"></div>
             <div class="grid_1-1">
                 <div>
                 <h2>HVAD KAN DU OPLEVE PÅ TOTHAVEN?</h2>
@@ -110,6 +112,7 @@
                 <a class="next" onclick="slideMove(1)">&#10095; </a>
             </div>
           </div>
+          <div class="box"></div>
           <div>
             <div class="grid_1-1">
                 <div class="ospaatothaven">
@@ -117,12 +120,11 @@
                     <p>Vi, Pernille, Jakob, Martha og Andrea, har boet her siden februar 2014 hvor vi købte gården af Søren, som i mange år havde drevet den med fritids gartneri og dyrehold.</p>
                         <p>Pernille driver sit strik firma, p.feilberg, på gården og fra gårdbutikken ved vejen sælger vi æg fra glade høns, gedeoste, gedemælksis og rabarber i sæsonen.</p>
                        <p>Vi fik i 2018 fået tilskud fra LAG Gribskov-Halsnæs til at etablere et lille gårdmejeri og gårdbutik i en af længerne på gården.</p>
-                       <a class="LAG" href="https://lag-gribskov-halsnaes.dk">læs mere om LAG gribskov-Halsnæs</a>
                 </div>
                 <div>
                     <img class="ostothaven" src="indhold/img/portraetkvadrat.jpg.webp" alt="ospaatothaven">
                 </div>
-            </div>
+            </div> 
           </div>
     </main>
 
