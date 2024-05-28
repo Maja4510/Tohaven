@@ -1,0 +1,124 @@
+img {
+  width: 100%;
+  display: block;
+  margin: 10px;
+}
+
+body {
+  background-color: #e7f2ee;
+}
+
+h1 {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  margin-left: 10%;
+  color: #47a1a1;
+  padding-bottom: 2%;
+}
+/* Musik og pizza */
+
+@media (min-width: 750px) {
+  .grid_musik {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    padding-bottom: 20%;
+  }
+}
+h2 {
+  color: #d9522f;
+  font-size: 40px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.textmusik {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 10%;
+  font-size: 1.2rem;
+}
+
+.musikimg {
+  width: 80%;
+}
+
+.knap {
+  background-color: #77bd97;
+  color: #d9522f;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  border: none;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+}
+
+.knap:hover {
+  background-color: #74c2a6;
+  color: #bce0cd;
+}
+/* Simon */
+
+@media (min-width: 750px) {
+  .grid_simon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    padding-bottom: 20%;
+    padding-top: 15%;
+  }
+}
+
+.textsimon {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 10%;
+  font-size: 1.2rem;
+}
+
+h3 {
+  color: #d9522f;
+  font-size: 20px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.simonimg {
+  width: 80%;
+  padding-top: 15%;
+}
+
+.grid_omsimon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20%;
+}
+
+.simontext {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 10%;
+  font-size: 1.2rem;
+}
+
+.h2omsimon {
+  color: #d9522f;
+  font-size: 40px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 10%;
+}
+
+.videosimon {
+  padding-top: 15%;
+  margin-left: 10%;
+}
