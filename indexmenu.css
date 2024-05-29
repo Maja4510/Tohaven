@@ -1,157 +1,194 @@
 @media (min-width:750px) {
-.menu {
-    position: sticky;
-    top: 0;
-    display: flex;
-    padding: 10px;
-    margin:10px;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Francois One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:20px;
+  .menu {
+     position: sticky;
+     top: 0;
+     display: flex;
+     padding: 10px;
+     margin:10px;
+     justify-content: space-between;
+     align-items: center;
+     font-family: "Francois One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size:20px;
+   }
+   .menu .logo a {
+     display: flex;
+     width: 100%;
+   }
+   .logo {
+     display: flex;
+     width: 30%;
+     height: auto;
+   }
+    .menu nav ul {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     padding-bottom: 0.4rem;
+     gap: 30px;
+     overflow-x: auto;
+   }
+   .menutekst {
+     text-decoration: none;
+     font-weight: 700;
+     color:white;
+   }
+   .menutekst:hover {
+     color: #d7d7d7;
+   }
   }
-  .menu .logo a {
-    display: flex;
-    width: 100%;
-  }
-  .logo {
-    display: flex;
-    width: 30%;
-    height: auto;
+   @media (max-width:750px) {
+     .menu {
+       position: sticky;
+       top: 0;
+       display: flex;
+       margin:10px;
+       justify-content: space-between;
+       align-items: center;
+       font-family: "Francois One", sans-serif;
+       font-style: normal;
+       font-size:10px;
+     }
+     .menu .logo a {
+       display: flex;
+       width: 100%;
+     }
+     .logo {
+       display: flex;
+       width: 60%;
+       height: auto;
+     }
+    
+     .menu nav ul {
+       display: flex;
+       justify-content: space-between;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       padding-bottom: 0.4rem;
+       gap: 30px;
+       overflow-x: auto;
+     }
+     .menutekst {
+       text-decoration: none;
+       font-weight: 100;
+       color:white;
+     }
+     .menutekst:hover {
+       color: #d7d7d7;
+     }
+   }
+  
+  
+  /**** Footer *****/
+  
+  
+  footer {
+   position: sticky;
+   top: 0;
+   padding: 1rem 2rem;
+   font-family: "Cinzel", serif;
+   font-weight: 200;
+   color: black;
+   text-decoration: none;
+   background-color: #bce0cd;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
   }
   
-  .menu nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 0.4rem;
-    gap: 30px;
-    overflow-x: auto;
+  
+  .kontakt {
+   color: #ba431f;
+   font-size: 1.2rem;
+   font-family: "Francois One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
   }
-  .menutekst {
-    text-decoration: none;
-    font-weight: 700;
-    color:white;
+  
+  
+  .info {
+   color: black;
+   font-family: "DM Sans", sans-serif;
+   font-weight: 200;
+   font-style: normal;
   }
-  .menutekst:hover {
-    color: #d7d7d7;
+  
+  
+  .follow {
+   color: #ba431f;
+   font-size: 1.2rem;
+   font-family: "Francois One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
   }
-}
+  
+  
+  .insta {
+   color: black;
+   text-decoration: underline;
+   font-weight: 200;
+   font-family: "DM Sans", sans-serif;
+  }
+  
+  
+  .facebook {
+   color: black;
+   text-decoration: underline;
+   font-weight: 200;
+   font-family: "DM Sans", sans-serif;
+  }
+  
+  
+  .adresse {
+   color: black;
+   font-family: "DM Sans", sans-serif;
+   font-weight: 200;
+   font-style: normal;
+   text-align: center;
+   line-height: 0.8;
+   padding-top: 10px;
+  }
+  
+  
+  .smiley_box {
+   display: grid;
+  }
+  .smiley_box a {
+   place-self: end;
+  }
+  .smiley {
+   width: 12%;
+   margin-inline: auto 12px;
+   padding-bottom: 10px;
+  }
+
   @media (max-width:750px) {
-    .menu {
-      position: sticky;
-      top: 0;
-      display: flex;
-      margin:10px;
-      justify-content: space-between;
-      align-items: center;
-      font-family: "Francois One", sans-serif;
-      font-style: normal;
+
+    .kontakt{
+      font-size:15px;
+    }
+
+    .follow{
+      font-size:15px;
+    }
+
+    .insta{
       font-size:10px;
     }
-    .menu .logo a {
-      display: flex;
-      width: 100%;
+
+    .facebook{
+      font-size:10px;
     }
-    .logo {
-      display: flex;
-      width: 60%;
-      height: auto;
+
+    .adresse{
+      padding-top:50px;
+      font-size:10px;
     }
-    
-    .menu nav ul {
-      display: flex;
-      justify-content: space-between;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      padding-bottom: 0.4rem;
-      gap: 30px;
-      overflow-x: auto;
-    }
-    .menutekst {
-      text-decoration: none;
-      font-weight: 100;
-      color:white;
-    }
-    .menutekst:hover {
-      color: #d7d7d7;
+
+    .info{
+      font-size:10px;
     }
   }
-
-/**** Footer *****/
-
-footer {
-  position: sticky;
-  top: 0;
-  padding: 1rem 2rem;
-  font-family: "Cinzel", serif;
-  font-weight: 200;
-  color: black;
-  text-decoration: none;
-  background-color: #bce0cd;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.kontakt {
-  color: #ba431f;
-  font-size: 1.2rem;
-  font-family: "Francois One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.info {
-  color: black;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.follow {
-  color: #ba431f;
-  font-size: 1.2rem;
-  font-family: "Francois One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.insta {
-  color: black;
-  text-decoration: underline;
-  font-weight: 200;
-  font-family: "DM Sans", sans-serif;
-}
-
-.facebook {
-  color: black;
-  text-decoration: underline;
-  font-weight: 200;
-  font-family: "DM Sans", sans-serif;
-}
-
-.adresse {
-  color: black;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  text-align: center;
-  line-height: 0.8;
-  padding-top: 10px;
-}
-.smiley_box {
-  display: grid;
-}
-.smiley_box a {
-  place-self: end;
-}
-.smiley {
-  width: 12%;
-  margin-inline: auto 12px;
-  padding-bottom: 10px;
-}

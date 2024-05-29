@@ -214,3 +214,31 @@ footer {
   margin-inline: auto 12px;
   padding-bottom: 10px;
 }
+
+@media (max-width:750px) {
+
+  .kontakt{
+    font-size:15px;
+  }
+
+  .follow{
+    font-size:15px;
+  }
+
+  .insta{
+    font-size:10px;
+  }
+
+  .facebook{
+    font-size:10px;
+  }
+
+  .adresse{
+    padding-top:50px;
+    font-size:10px;
+  }
+
+  .info{
+    font-size:10px;
+  }
+}

@@ -18,6 +18,19 @@
 
   @media (max-width: 750px) {
 
+    p{
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .aesel{
+        padding-bottom: 15px;
+    }
+
+    h2{
+        padding-left:10px;
+    }
+
   /*LAG*/
   .LAG{
     font-size:15px;
@@ -106,7 +119,7 @@
     color: #FFB000;
     font-size: 2em;
     position: absolute;
-    top: 168%;
+    top: 165%;
     left:5%;
     width: 90%;
   
@@ -132,11 +145,11 @@
 /*os tothaven img*/
 .ostothaven{
     padding-top:20px;
+    padding-bottom:20px;
 }
 
 .lottiefile{
     width: 450px;
-    height: 152px;
-}   
-
+    height: 150px;
+    }   
 }
