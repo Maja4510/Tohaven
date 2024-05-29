@@ -83,15 +83,12 @@
     }
   }
 
-  /**** Footer *****/
+/**** Footer *****/
 
 footer {
   position: sticky;
   top: 0;
   padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
   font-family: "Cinzel", serif;
   font-weight: 200;
   color: black;
@@ -124,28 +121,37 @@ footer {
   font-style: normal;
 }
 
+.insta {
+  color: black;
+  text-decoration: underline;
+  font-weight: 200;
+  font-family: "DM Sans", sans-serif;
+}
+
+.facebook {
+  color: black;
+  text-decoration: underline;
+  font-weight: 200;
+  font-family: "DM Sans", sans-serif;
+}
+
 .adresse {
   color: black;
   font-family: "DM Sans", sans-serif;
   font-weight: 200;
   font-style: normal;
-  margin-right: 70px;
   text-align: center;
   line-height: 0.8;
+  padding-top: 10px;
 }
-
+.smiley_box {
+  display: grid;
+}
+.smiley_box a {
+  place-self: end;
+}
 .smiley {
   width: 12%;
-  margin-left: 100px;
-  margin-top: 20px;
-}
-
-.insta{
-  font-family: "DM Sans", sans-serif;
-  color:black;
-}
-
-.facebook{
-  font-family: "DM Sans", sans-serif;
-  color:black;
+  margin-inline: auto 12px;
+  padding-bottom: 10px;
 }

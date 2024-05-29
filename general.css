@@ -1,41 +1,42 @@
-html{
-    --primary: #47A1A1;
-    --secondary: #D9522F;
+html {
+  --primary: #47a1a1;
+  --secondary: #d9522f;
 
-    --font-face1: "Emblema One", system-ui;
-    --font-face2: "Francois One", sans-serif;
-    --font-face3: "DM Sans", sans-serif;
+  --font-face1: "Emblema One", system-ui;
+  --font-face2: "Francois One", sans-serif;
+  --font-face3: "DM Sans", sans-serif;
 
-    --wght-primary: 400;
-    --wght-secondary: 400;
-    --wght-tritary: 200;
+  --wght-primary: 400;
+  --wght-secondary: 400;
+  --wght-tritary: 200;
 
-    --size-primary: 80px;
-    --size-secondary: 40px;
+  --size-primary: 80px;
+  --size-secondary: 40px;
 
-    --height: 2rem;
+  --height: 2rem;
 
-    --width: 1000px;
+  --width: 1000px;
 }
 
-h1{
-    color: var(--primary);
-    font-weight: var(--wght-primary);
-    font-size: var(--size-primary);
-    font-family: var(--font-face1);
+h1 {
+  color: var(--primary);
+  font-weight: var(--wght-primary);
+  font-size: var(--size-primary);
+  font-family: var(--font-face1);
 }
 
-h2{
-    color: var(--secondary);
-    font-size: var(--size-secondary);
-    font-weight: var(--wght-secondary);
-    font-family: var(--font-face2);
+h2 {
+  color: var(--secondary);
+  font-size: var(--size-secondary);
+  font-weight: var(--wght-secondary);
+  font-family: var(--font-face2);
 }
 
-p{
-    line-height: var(--height);
-    font-family: var(--font-face3);
-    font-weight: var(--wght-tritary);
-    max-width: var(--width);
-    font-size: var(--size-tritary);
+p {
+  margin-block: var(--space-sm);
+  line-height: var(--height);
+  font-family: var(--font-face3);
+  font-weight: var(--wght-tritary);
+  max-width: var(--width);
+  font-size: var(--size-tritary);
 }
