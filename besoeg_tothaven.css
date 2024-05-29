@@ -126,8 +126,8 @@ iframe {
     font-weight: 400;
     font-style: normal;
     color: #d9522f;
-    font-size: 4rem;
-    margin-left: 37%;
+    font-size: 2.5rem;
+    margin-left: 43%;
   }
   h1 {
     font-family: "Emblema One", system-ui;
@@ -149,6 +149,6 @@ iframe {
     width: 1454px;
     height: 670px;
     z-index: -1;
-    top: 73%;
+    top: 77%;
   }
 }
