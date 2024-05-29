@@ -50,7 +50,7 @@
        align-items: center;
        font-family: "Francois One", sans-serif;
        font-style: normal;
-       font-size:10px;
+       font-size:7px;
      }
      .menu .logo a {
        display: flex;
@@ -147,7 +147,7 @@
    font-weight: 200;
    font-style: normal;
    text-align: center;
-   line-height: 0.8;
+   line-height: 20px;
    padding-top: 10px;
   }
   
@@ -183,11 +183,20 @@
     }
 
     .adresse{
-      padding-top:50px;
+      padding-top:10px;
       font-size:10px;
+      line-height:15px;
     }
 
     .info{
       font-size:10px;
+    }
+
+    .cvr{
+      font-size:10px;
+    }
+
+    .smiley{
+      width:30%;
     }
   }
