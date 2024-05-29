@@ -99,6 +99,7 @@ h3 {
 
 iframe {
   width: 100%;
+  margin-bottom: 10%;
 }
 
 @media (min-width: 750px) {
@@ -140,5 +141,8 @@ iframe {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 15%;
+  }
+  iframe {
+    width: 100%;
   }
 }
