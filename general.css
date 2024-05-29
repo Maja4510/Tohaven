@@ -1,0 +1,53 @@
+html{
+    --primary: #47A1A1;
+    --secondary: #D9522F;
+
+    --font-face1: "Emblema One", system-ui;
+    --font-face2: "Francois One", sans-serif;
+    --font-face3: "DM Sans", sans-serif;
+
+    --space-lg: 1.5rem;
+    --space-md: 1rem;
+    --space-sm: 0.5rem;
+
+    --wght-primary: 400;
+    --wght-secondary: 400;
+    --wght-tritary: 200;
+
+    --size-primary: 80px;
+    --size-secondary: 40px;
+
+    --height: 2rem;
+
+    --width: 1000px;
+
+    --padding: 10px;
+}
+
+h1{
+    color: var(--primary);
+    margin-bottom: var(--space-lg);
+    font-weight: var(--wght-primary);
+    font-size: var(--size-primary);
+    padding: var(--padding);
+    font-family: var(--font-face1);
+}
+
+h2{
+    color: var(--secondary);
+    margin-bottom: var(--space-md);
+    font-size: var(--size-secondary);
+    font-weight: var(--wght-secondary);
+    font-family: var(--font-face2);
+    padding: var(--padding);
+}
+
+p{
+    margin-block: var(--space-sm);
+    line-height: var(--height);
+    font-family: var(--font-face3);
+    font-weight: var(--wght-tritary);
+    max-width: var(--width);
+    font-size: var(--size-tritary);
+    padding: var(--padding);
+}
