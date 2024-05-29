@@ -13,7 +13,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 8rem;
-  margin-left: 10%;
+  margin-left: 25%;
   color: #47a1a1;
   padding-bottom: 2%;
 }
@@ -25,6 +25,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
     padding-bottom: 20%;
+    padding-top: 5%;
   }
 }
 h2 {
