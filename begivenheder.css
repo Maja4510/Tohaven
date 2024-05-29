@@ -1,7 +1,7 @@
 img {
   width: 100%;
   display: block;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 body {
@@ -72,6 +72,9 @@ h2 {
     padding-bottom: 20%;
     padding-top: 15%;
   }
+  iframe {
+    width: 100%;
+  }
 }
 
 .textsimon {
@@ -94,13 +97,13 @@ h3 {
   width: 80%;
   padding-top: 15%;
 }
-
-.grid_omsimon {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 20%;
+@media (min-width: 750px) {
+  .grid_omsimon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15%;
+  }
 }
-
 .simontext {
   font-family: "DM Sans", sans-serif;
   font-weight: 200;
@@ -121,4 +124,5 @@ h3 {
 .videosimon {
   padding-top: 15%;
   margin-left: 10%;
+  margin-right: 20%;
 }
