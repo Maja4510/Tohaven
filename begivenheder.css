@@ -8,29 +8,19 @@ body {
   background-color: #e7f2ee;
 }
 
-h1 {
+.bevigenhederoverksrift {
   font-family: "Emblema One", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 8rem;
-  margin-left: 25%;
+  font-size: 2rem;
+  margin-left: 22%;
   color: #47a1a1;
   padding-bottom: 2%;
 }
-/* Musik og pizza */
 
-@media (min-width: 750px) {
-  .grid_musik {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px;
-    padding-bottom: 20%;
-    padding-top: 5%;
-  }
-}
 h2 {
   color: #d9522f;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Francois One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -63,21 +53,6 @@ h2 {
   background-color: #74c2a6;
   color: #bce0cd;
 }
-/* Simon */
-
-@media (min-width: 750px) {
-  .grid_simon {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px;
-    padding-bottom: 20%;
-    padding-top: 15%;
-  }
-  iframe {
-    width: 100%;
-  }
-}
-
 .textsimon {
   font-family: "DM Sans", sans-serif;
   font-weight: 200;
@@ -98,13 +73,7 @@ h3 {
   width: 80%;
   padding-top: 15%;
 }
-@media (min-width: 750px) {
-  .grid_omsimon {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 15%;
-  }
-}
+
 .simontext {
   font-family: "DM Sans", sans-serif;
   font-weight: 200;
@@ -126,4 +95,54 @@ h3 {
   padding-top: 15%;
   margin-left: 10%;
   margin-right: 20%;
+}
+
+iframe {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+@media (min-width: 750px) {
+  /* Musik og pizza */
+  .grid_musik {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    padding-bottom: 20%;
+    padding-top: 5%;
+  }
+  .bevigenhederoverksrift {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    margin-left: 22%;
+    color: #47a1a1;
+    padding-bottom: 2%;
+  }
+  h2 {
+    color: #d9522f;
+    font-size: 2rem;
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* Simon */
+
+  .grid_simon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    padding-bottom: 20%;
+    padding-top: 15%;
+  }
+
+  .grid_omsimon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15%;
+  }
+  iframe {
+    width: 100%;
+  }
 }
