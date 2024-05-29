@@ -84,10 +84,10 @@ p {
   .box2 {
     position: absolute;
     background-color: #c8e5d6;
-    width: 1400px;
-    height: 700px;
+    width: 1430px;
+    height: 730px;
     z-index: -1;
-    top: 615%;
+    top: 582%;
   }
   article {
     display: grid;
@@ -99,7 +99,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 80px;
+    padding: 20px;
   }
 
   h1 {
@@ -120,7 +120,7 @@ p {
   }
 
   .is_text {
-    padding-left: 10px;
+    padding-left: 32px;
     padding-bottom: 5px;
   }
 
@@ -146,8 +146,5 @@ p {
   }
   .image7 {
     padding: 2%;
-  }
-
-  .image {
   }
 }
