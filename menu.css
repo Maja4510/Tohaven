@@ -107,7 +107,7 @@ header {
 /************** Desktop menu *************/
 
 header {
-  position: sticky;
+  position: flex;
   top: 0;
   display: flex;
   padding: 10px;
@@ -203,7 +203,7 @@ footer {
   font-weight: 200;
   font-style: normal;
   text-align: center;
-  line-height: 20px;
+  line-height: 5px;
   padding-top: 10px;
 }
 .smiley_box {
