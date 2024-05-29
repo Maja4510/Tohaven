@@ -14,7 +14,7 @@ html{
     --wght-secondary: 400;
     --wght-tritary: 200;
 
-    --size-primary: 70px;
+    --size-primary: 80px;
     --size-secondary: 40px;
 
     --height: 2rem;
@@ -30,6 +30,7 @@ h1{
     font-weight: var(--wght-primary);
     font-size: var(--size-primary);
     padding: var(--padding);
+    font-family: var(--font-face1);
 }
 
 h2{
