@@ -13,6 +13,10 @@ body {
     padding:0;
   }
 
+  footer{
+    margin:20px;
+  }
+
   a:hover{
     color: #D9522F;
   }
