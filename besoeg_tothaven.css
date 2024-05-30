@@ -10,7 +10,7 @@
 }
 
 img {
-  width: 100%;
+  width: 70%;
   display: block;
   margin: 15px;
 }
@@ -24,6 +24,13 @@ p {
 body {
   background-color: #e7f2ee;
   gap: 10px;
+}
+
+header{
+  margin: 20px;
+}
+
+footer{
   margin: 20px;
 }
 
@@ -106,7 +113,9 @@ iframe {
 }
 
 .find_os_img {
-  width: 100%;
+  width:90%;
+  align-items: center;
+  padding-left:120px;
 }
 
 .find_os_text {
@@ -147,7 +156,7 @@ iframe {
   .boks {
     position: absolute;
     background-color: #bce0cd;
-    width: 1454px;
+    width: 1467px;
     height: 670px;
     z-index: -1;
     top: 77%;
