@@ -1,154 +1,154 @@
 .emblema-one-regular {
-    font-family: "Emblema One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .francois-one-regular {
-    font-family: "Francois One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  img {
-    width: 100%;
-    display: block;
-    margin: 15px;
-  }
-  p {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    line-height: 2rem;
-  }
-  
-  body {
-    background-color: #e7f2ee;
-    margin: 20px;
-  }
-  
-  .knap_billet {
-    background-color: #77bd97;
-    color: #d9522f;
-    font-family: "Francois One", sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-    border: none;
-    padding: 10px 20px;
-    transition-duration: 0.4s;
-    margin-left: 20%;
-    display: block;
-    margin: 10px;
-    width: 150px;
-    text-align: center;
-  }
-  
-  .knap_billet:hover {
-    background-color: #74c2a6;
-    color: #bce0cd;
-  }
-  
-  .knap_årskort {
-    background-color: #77bd97;
-    color: #d9522f;
-    font-family: "Francois One", sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-    border: none;
-    padding: 10px 20px;
-    transition-duration: 0.4s;
-    margin-left: 40%;
-    margin: 10px;
-    display: block;
-    width: 163px;
-    text-align: center;
-  }
-  .knap_årskort:hover {
-    background-color: #74c2a6;
-    color: #bce0cd;
-  }
-  .knapper {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.francois-one-regular {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 15px;
+}
+p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+body {
+  background-color: #e7f2ee;
+  margin: 20px;
+}
+
+.knap_billet {
+  background-color: #77bd97;
+  color: #d9522f;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  border: none;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  margin-left: 20%;
+  display: block;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.knap_billet:hover {
+  background-color: #74c2a6;
+  color: #bce0cd;
+}
+
+.knap_årskort {
+  background-color: #77bd97;
+  color: #d9522f;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  border: none;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  margin-left: 40%;
+  margin: 10px;
+  display: block;
+  width: 163px;
+  text-align: center;
+}
+.knap_årskort:hover {
+  background-color: #74c2a6;
+  color: #bce0cd;
+}
+.knapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  /* margin-left: 2%; */
+  color: #47a1a1;
+  /* letter-spacing: 0.2rem; */
+}
+
+.åbningstider {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #d9522f;
+  font-size: 2rem;
+  margin-left: 15%;
+}
+
+iframe {
+  width: 70%;
+  margin-left: 15%;
+}
+.kort_over_tot {
+  width: 60%;
+  margin-left: 25%;
+}
+
+.kalender {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.find_os_img {
+  width: 100%;
+}
+
+.find_os_text {
+  margin-left: 44%;
+}
+.kort_text {
+  margin-left: 23%;
+}
+@media (min-width: 750px) {
+  .grid_1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10%;
+    margin-left: 5%;
   }
-  
-  h1 {
-    font-family: "Emblema One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    margin-left: 15%;
-    color: #47a1a1;
-    /* letter-spacing: 0.2rem; */
-  }
-  
   h2 {
     font-family: "Francois One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #d9522f;
     font-size: 2.5rem;
-    margin-left: 25%;
+    margin-left: 43%;
   }
-  
-  iframe {
-    width: 70%;
-    margin-left: 15%;
+  h1 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #47a1a1;
+    margin-left: 26%;
+    letter-spacing: 0.2rem;
   }
-  .kort_over_tot {
-    width: 60%;
-    margin-left: 25%;
+  .knapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 25%;
   }
-  
-  .kalender {
-    width: 70%;
-    margin-left: 15%;
+  .boks {
+    position: absolute;
+    background-color: #bce0cd;
+    width: 1454px;
+    height: 670px;
+    z-index: -1;
+    top: 77%;
   }
-  
-  .find_os_img {
-    width: 100%;
-  }
-  
-  .find_os_text {
-    margin-left: 44%;
-  }
-  .kort_text {
-    margin-left: 23%;
-  }
-  @media (min-width: 750px) {
-    .grid_1-1 {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      margin-top: 10%;
-      margin-left: 5%;
-    }
-    h2 {
-      font-family: "Francois One", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color: #d9522f;
-      font-size: 2.5rem;
-      margin-left: 43%;
-    }
-    h1 {
-      font-family: "Emblema One", system-ui;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 70px;
-      color: #47a1a1;
-      margin-left: 26%;
-      letter-spacing: 0.2rem;
-    }
-    .knapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      padding-left: 25%;
-    }
-    .boks {
-      position: absolute;
-      background-color: #bce0cd;
-      width: 1454px;
-      height: 670px;
-      z-index: -1;
-      top: 77%;
-    }
-  }
+}
